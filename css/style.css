@@ -41,22 +41,26 @@ header{
 }
 .navlist{
 	display: flex;
+
 }
 .navlist li{
 	position: relative;
+background: var(--text-color);
 }
 .navlist a{
 	font-size: var(--p-font);
 	color: var(--text-color);
 	font-weight: 500;
 	padding: 10px 27px;
+
+
 }
 .navlist a::after{
 	content: '';
 	position: absolute;
 	width: 0;
 	height: 2px;
-	background: var(--main-color);
+	background: var(--text-color);
 	bottom: -3px;
 	left: 0;
 	transition: ease .40s;
